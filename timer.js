@@ -19,6 +19,7 @@ zerar.addEventListener('click', zerou)
 
 
 function inicio(){
+    clearInterval(timer)
     timer = setInterval(function(){
         segundos++
         hora.innerHTML = criaSeg(segundos)
